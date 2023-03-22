@@ -1,6 +1,6 @@
 # Lab 6
 # Author: Dane Dickerson
-
+# Adding code: Daniel Armesto
 def encode(password):
     password_encoded = []
     for letter in password:
@@ -27,3 +27,4 @@ if __name__ == '__main__':
             print(f'The encoded password is {password_encoded}, and the original password is {password}.\n')
         elif option == '3':
             break
+           
